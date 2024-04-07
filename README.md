@@ -1,0 +1,2 @@
+# oldgodsnewmagic
+webpage for album 
