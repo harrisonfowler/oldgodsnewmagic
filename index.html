@@ -28,7 +28,8 @@
             justify-content: flex-start;
             align-items: center;
             font-family: Arial, sans-serif;
-            background-color:#191a22
+            background-color:#191a22;
+            line-height:0.8;
         }
 
         h1 {
@@ -125,6 +126,14 @@
             margin: 0 auto;
 
         }
+        .description {
+            background-color: #191a22;
+            padding: 20px;
+           /* border: 4px solid #f1fa8c;
+            border-radius: 10px; */
+            width: 90%;
+            margin: 0 auto;
+        }
 
         body {
             height: 100vh;
@@ -133,31 +142,33 @@
             justify-content: flex-start;
             align-items: center;
             font-family: Arial, sans-serif;
-            background-color:#191a22
+            background-color:#191a22;
+            line-height:0.6;
         }
 
         h1 {
             text-align: center;
             color: #5bcffb;
-            font-size:2.6vi;
+            font-size:3.62vi;
         }
 
         h2 {
             text-align: center;
             font-weight: normal;
             color: #5bcffb;
-            font-size:2vi;
+            font-size:3.2vi;
         }
         p {
             text-align: center;
             color: #5bcffb;
-            font-size:1.6vi;
+            font-size:3vi;
+            line
         }
 
         button {
             text-align: center;
             color: #5bcffb;
-            font-size:1.6vi;
+            font-size:3vi;
             background-color: #21222d;
             padding: 10px;
             border: 4px solid #ff578b;
@@ -181,18 +192,24 @@
     <div class="container">
         <div class="image"></div>
         <div class="gap"></div>
-        <br>
         <div class="description">
             <h1>Old Gods // New Magic</h1>
-            <h2>Hex God - 26th April 2024</h2>
             <br><br>
-            <p class="bun">Spotify</p><br>
-            <p class="bun">Apple Music</p><br>
-            <p class="bun">Youtube Music</p><br>
-            <p class="bun">Amazon Music</p> <br>
+            <button class="center" onclick="myFunction()">Spotify</button><br>
+            <button class="center" onclick="myFunction()">Apple Music</button><br>
+            <button class="center" onclick="myFunction()">Youtube Music</button><br>
+            <button class="center" onclick="myFunction()">Amazon Music</button> <br>
             <button class="center" onclick="window.location.href='https://hexgod.bandcamp.com/album/old-gods-new-magic';">
                 Bandcamp
             </button>
+            <script>
+            function myFunction() {
+                alert("Coming Soon!");
+                }
+            </script>
+            <br>
+            <br>
+            <h2>Hex God - 26th April 2024</h2>
         </div>
     </div>
 </body>
